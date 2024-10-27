@@ -13,6 +13,7 @@
                 lazygit
                 ruby
                 zoxide
+                bat
             ];
         };
     };
