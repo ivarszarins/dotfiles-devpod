@@ -2,7 +2,8 @@ vim.g.mapleader = ' '
 vim.g.maplocalleader = ' '
 vim.g.have_nerd_font = true
 
-vim.api.nvim_exec('language en_US.UTF-8', true)
+-- vim.api.nvim_exec('language en_US.UTF-8', true)
+vim.cmd 'language en_US'
 
 vim.opt.swapfile = false
 vim.opt.number = true
