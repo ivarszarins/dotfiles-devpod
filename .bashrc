@@ -11,8 +11,6 @@ case $- in
       *) return;;
 esac
 
-eval $(/opt/homebrew/bin/brew shellenv)
-
 # manage dot files
 if [[ "$(whoami)" == "s2386g" ]]; then
 	alias config='/usr/bin/git --git-dir=/home/s2386g/.cfg --work-tree=/home/s2386g'
@@ -135,10 +133,6 @@ export PATH="$PATH:/usr/local/go/bin"
 export FZF_DEFAULT_COMMAND='fd --type file --follow --hidden --exclude .git --color=always'
 export FZF_DEFAULT_OPTS="--ansi"
 export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
-
-if [ -f "$HOME/.cargo/env" ]; then
-    . "$HOME/.cargo/env"
-fi
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \. "/opt/homebrew/opt/nvm/nvm.sh"  # This loads nvm

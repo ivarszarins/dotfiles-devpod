@@ -12,6 +12,7 @@
                 fzf
                 lazygit
                 ruby
+                zoxide
             ];
         };
     };
