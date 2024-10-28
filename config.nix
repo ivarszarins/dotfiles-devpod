@@ -14,6 +14,7 @@
                 ruby
                 zoxide
                 bat
+                eza
             ];
         };
     };
