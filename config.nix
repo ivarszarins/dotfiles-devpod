@@ -11,11 +11,11 @@
                 ripgrep
                 fzf
                 lazygit
+                rust
                 ruby
                 zoxide
                 bat
                 eza
-                gdbm
             ];
         };
     };
