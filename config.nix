@@ -11,7 +11,7 @@
                 ripgrep
                 fzf
                 lazygit
-                rust
+                rustc
                 ruby
                 zoxide
                 bat
