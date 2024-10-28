@@ -15,6 +15,7 @@
                 zoxide
                 bat
                 eza
+                gdbm
             ];
         };
     };
